@@ -232,4 +232,17 @@ margin-top: 80vh;
 margin-left: 15vw;
   }
 
-  
+  #resume,
+  #gh-account,
+  #linkedin{
+max-height: 100px;
+justify-content: space-between;
+padding: 0 1vw 0 0;
+Margin-left: 15%;
+cursor: grab;
+  }
+  #resume:hover,
+  #gh-account:hover,
+  #linkedin:hover{
+      cursor: grabbing;
+  }
