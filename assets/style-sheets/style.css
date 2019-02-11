@@ -139,7 +139,7 @@
 #about-copy {   /* copy describing my currnet professional outline */
     text-align: justify;
     text-justify: inter-word;
-    padding: 2vw 2vh;
+    padding: 0vw 2vh;
     color: wheat;
 
     margin-right: 3vw;
