@@ -119,6 +119,7 @@
     font-weight: 100;
     color: rgb(255, 255, 255);
     text-align: center;
+    min-width: 380px;
     position: absolute;
     text-shadow: 0 1px #003131,
         -1px 0 #cdd2d5,
