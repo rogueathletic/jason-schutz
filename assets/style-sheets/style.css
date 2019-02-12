@@ -4,6 +4,7 @@
 
 .a {   /* global link action */
     cursor: grab;
+    color: silver;
 }
 
 .body,
@@ -26,7 +27,9 @@
     font-size: 15px;
     color: rgb(139, 139, 139);
 }
-
+#code-links{
+    text-align: center;
+}
 .th1,
 .th2,
 .th3 {   /* three table components used here for spacing table items apart */
@@ -232,6 +235,7 @@
     /* simply the footer */
     text-decoration: none;
     color: chartreuse;
+    margin-top: 20px;
 }
 
 .btn {
@@ -300,20 +304,46 @@ h4 {
 
 }
 
-#resume,
+/* #portfoliolinks, */
 #gh-account,
-#linkedin {
+#strava,
+#resume,
+#jsfiddle,
+#linkedin,
+#text-messaging{
     /* links just above footer that direct to my resume, linked in account, and my git hub account. Might add my instagram as it has good traction as well and showcasses many professional modeling shots. */
     max-height: 100px;
+    max-width: 100px;
+    display: flex;
     justify-content: space-between;
-    padding: 0 1vw 0 0;
-    Margin-left: 21%;
     cursor: grab;
-    margin-top: -140px;
-    padding-bottom: 50px;
+    padding: 1vw;
     cursor: grab;
+    float: left;
+    margin-left: 3vw;
+box-shaddow: inset 3px 3px 5px black;
 }
 
+
+/* on hover to allow the gifs to light up on hover to notify user they are actionalble. */
+#gh-account:hover,
+#strava:hover,
+#resume:hover,
+#jsfiddle:hover,
+#linkedin:hover,
+#text-messaging:hover{
+    -webkit-filter: brightness(150%);
+    cursor: grab, -moz-grab, -webkit-grab;
+}
+
+#gh-account:active,
+#strava:active,
+#resume:active,
+#jsfiddle:active,
+#linkedin:active,
+#text-messaging:active{
+    cursor: grabbing, -moz-grabbing, -webkit-grabbing;
+}
 
 .header-copyright {
     /* utilizes and formatted the window to allow for white space to appear below the opening hero shot to display the copyright. this was done so the page could initially display as a multi page website and not a single page one sheet */
