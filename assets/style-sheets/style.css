@@ -321,8 +321,7 @@ h4 {
     padding: 1vw;
     cursor: grab;
     float: left;
-    margin-left: 3vw;
-box-shaddow: inset 3px 3px 5px black;
+    margin: 3vw;
 }
 
 
@@ -470,3 +469,4 @@ box-shaddow: inset 3px 3px 5px black;
     /* container created to set both aarows to a vert specific placement. */
     margin-top: 750px;
 }
+
