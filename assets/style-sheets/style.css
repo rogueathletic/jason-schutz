@@ -111,7 +111,18 @@
     justify-content: center;
     margin-top: 200px;
 }
-
+#showcase{
+    font-size:2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    letter-spacing: 6vw;
+    font-weight: 100;
+    color: rgb(97, 97, 97);
+    text-align: center;
+    min-width: 380px;
+    position: absolute;
+    margin: 70px 0 0 20%;
+}
 .sec__title {   /* the fluo green titles seen at the top of the content sections of the site */
     padding: 2vw;
     font-size: 4vw;
